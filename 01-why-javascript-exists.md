@@ -216,7 +216,8 @@ JavaScript succeeded because it was:
 | Cross-platform | Runs anywhere via engines |
 | Easy to learn | Forgiving and flexible syntax |
 
-Over time, it evolved into:
+Over time, it evolved into: 
+
 
 - Frontend language  
 - Backend (Node.js)  
