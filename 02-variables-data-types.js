@@ -230,7 +230,8 @@ console.log("Value of B: ", xB);
 //1. Memory Efficiency (Avoiding "Double Memory")
 // Mutable/Reference Approach: When you assign a large array to a new variable (let newArray = oldArray), the system does not copy the thousands of elements. It only copies the memory address (reference). Both variables point to the same data in the heap memory.
 // Immutability Problem: If non-primitives were immutable, updating one element in a million-item list would require creating a completely new list, which could double memory usage and slow down the application. 
-// DEV Community
+// DEV Community03-JavaScript-Memory-Internals-Stack-Heap-And-Engine-Optimizations.md
+
 // DEV Community
 //  +4
 // 2. Performance (In-Place Modifications)
