@@ -401,7 +401,7 @@ But understanding:
 - Engine optimizations
 - Memory references
 
-Helps us write better, more efficient code.
+Helps us write better, more efficient code. 
 
 ---
 
