@@ -174,3 +174,20 @@ arr = [10, 20];
 arr[100] = 999;
 
 console.log(arr.length + " is the length of array?");
+ /*
+{
+  "0": 10,
+  "1": 20,
+  "100": 999
+}*/
+
+//JS Array = Exotic Object
+// Special object with:
+
+// numeric keys
+
+// auto-managed length
+
+// hidden class
+
+// elements kinds (Packed / Holey)
