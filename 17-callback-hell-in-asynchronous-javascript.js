@@ -82,3 +82,17 @@ placeOrder(orderDetails, (orderDetails) => {
 
 //this is callback hell
 //it's not readable
+
+/*
+Because:
+
+❌ Hard to read
+
+❌ Hard to debug
+
+❌ Error handling becomes nightmare
+
+❌ Code maintenance becomes impossible in real apps
+
+❌ In real projects this goes 8–10 levels deep 😵
+*/
