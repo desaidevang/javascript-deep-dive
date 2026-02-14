@@ -227,9 +227,10 @@ And the closure memory is destroyed.
 
 Local variables are destroyed after function execution unless they are captured inside a returned inner function (closure).
 
-Then they move from:
+The outer function's Lexical Environment is kept alive
+because the returned inner function still references it.
 
-Stack → Heap
+Garbage Collector deletes it only when no reference exists.
 
 
 and live as long as the returned function lives.
